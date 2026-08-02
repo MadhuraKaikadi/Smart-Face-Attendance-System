@@ -1,96 +1,94 @@
 # Smart Face Attendance System
 
-A modern face recognition-based attendance system designed for schools, colleges, and organizations to automate attendance tracking with speed, accuracy, and minimal manual effort.
+A modern AI-powered face recognition attendance system that automates attendance tracking using real-time facial recognition. The application enables teachers to register students, recognize faces, mark attendance automatically, and monitor attendance records through an intuitive web dashboard.
 
-## Overview
+## 🚀 Features
 
-This project helps teachers and administrators manage student attendance digitally by using face detection and recognition technology. Instead of taking attendance manually, the system can identify students in real time and record attendance automatically.
+- 👨‍🎓 Student registration and management
+- 🤖 Real-time face detection and recognition
+- ✅ Automatic attendance marking
+- 📊 Attendance reports and summaries
+- 🔒 Secure database integration with Supabase
+- 📱 Responsive and user-friendly interface
+- 📥 Export attendance records to Excel
 
-## Features
+## 🛠️ Tech Stack
 
-- Student registration with details and images
-- Real-time face detection and recognition
-- Automatic attendance marking
-- Teacher-friendly dashboard
-- Attendance reports and summaries
-- Database-backed data storage with Supabase
-- Responsive interface for desktop and web usage
+- **Frontend:** React.js, Vite, Tailwind CSS
+- **Backend:** Supabase
+- **Database:** PostgreSQL (Supabase)
+- **Face Recognition:** face-api.js
+- **Utilities:** XLSX
 
-## Tech Stack
+## 🎯 Project Goals
 
-- React
-- Vite
-- JavaScript
-- Tailwind CSS
-- Supabase
-- Face-api.js
-- Xlsx
+- Automate attendance management
+- Eliminate manual attendance errors
+- Save time for teachers and administrators
+- Improve attendance accuracy using AI
+- Provide a secure and scalable attendance solution
 
-## Project Goals
+## 📦 Installation
 
-- Reduce manual attendance errors
-- Save time for teachers and staff
-- Improve accuracy and reliability
-- Provide a digital attendance management experience
-
-## Installation
-
-### 1. Clone the repository
+### Clone the repository
 
 ```bash
 git clone https://github.com/your-username/smart-face-attendance-system.git
 cd smart-face-attendance-system
 ```
 
-### 2. Install dependencies
+### Install dependencies
 
 ```bash
 npm install
 ```
 
-### 3. Run the app
+### Configure environment variables
+
+Create a `.env` file and add:
+
+```env
+VITE_SUPABASE_URL=your_supabase_url
+VITE_SUPABASE_ANON_KEY=your_supabase_anon_key
+```
+
+### Start the development server
 
 ```bash
 npm run dev
 ```
 
-## Environment Setup
+## 📂 Project Structure
 
-Create a `.env` file in the project root and add your Supabase configuration if needed:
-
-```bash
-VITE_SUPABASE_URL=your_supabase_url
-VITE_SUPABASE_ANON_KEY=your_supabase_anon_key
 ```
-
-## Usage
-
-1. Open the application in your browser.
-2. Add students and upload their face images.
-3. Start attendance capture.
-4. The system detects and recognizes faces automatically.
-5. View and export attendance records from the dashboard.
-
-## Project Structure
-
-```bash
 src/
-  components/
-  pages/
-  routes/
-  lib/
+├── components/
+├── pages/
+├── routes/
+├── lib/
+├── assets/
+└── App.jsx
+
 public/
 supabase/
 ```
 
-## Contributing
+## 📋 Usage
 
-Pull requests are welcome. Please open an issue first if you want to make a significant change.
+1. Register students with their details and face images.
+2. Start the face recognition module.
+3. Detect and recognize faces in real time.
+4. Attendance is automatically recorded.
+5. View or export attendance reports.
 
-## License
+## 🤝 Contributing
+
+Contributions are welcome! Feel free to fork this repository, create a new branch, and submit a pull request.
+
+## 📄 License
 
 This project is licensed under the MIT License.
 
-## Author
+## 👩‍💻 Author
 
-Your Name / Team Name
+**Madhura Kaikadi**
